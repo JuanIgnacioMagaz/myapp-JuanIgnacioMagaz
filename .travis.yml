@@ -1,0 +1,8 @@
+language: java
+deploy:
+  on:
+    branch: main
+  skip_cleanup: true
+  provider: heroku
+  app: myapp-JuanIgnacioMagaz
+
